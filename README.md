@@ -439,15 +439,15 @@ Non-uniform Deblurring
  * [RGBD2Full3D](https://github.com/arron2003/rgbd2full3d) - Ruiqi Guo (UIUC)
 
 #### Object Detection
- * [INRIA Object Detection and Localization Toolkit](http://pascal.inrialpes.fr/soft/olt/) code="OLT" The research work is described in our CVPR 2005 paper Histograms of Oriented Gradients for Human Detection and my PhD thesis Finding People in Images and Vidoes. Besides person detection we have used the same framework for other object detection tasks. 
- * [Discriminatively trained deformable part models](http://www.cs.berkeley.edu/~rbg/latent/) 
- * [VOC-DPM](https://github.com/rbgirshick/voc-dpm)
- * [Histograms of Sparse Codes for Object Detection](http://www.ics.uci.edu/~dramanan/software/sparse/)
- * [R-CNN: Regions with Convolutional Neural Network Features](https://github.com/rbgirshick/rcnn)
- * [SPP-Net](https://github.com/ShaoqingRen/SPP_net)
+ * [INRIA Object Detection and Localization Toolkit](http://pascal.inrialpes.fr/soft/olt/) code="OLT" system="linux,need modify for windows which can find in github" The research work is described in our CVPR 2005 paper Histograms of Oriented Gradients for Human Detection and my PhD thesis Finding People in Images and Vidoes. Besides person detection we have used the same framework for other object detection tasks. 
+ * [Discriminatively trained deformable part models](http://www.cs.berkeley.edu/~rbg/latent/) code="VOC" system="linux"0
+ * [VOC-DPM](https://github.com/rbgirshick/voc-dpm) the github repository of above. 
+ * [Histograms of Sparse Codes for Object Detection](http://www.ics.uci.edu/~dramanan/software/sparse/) code="cvpr13_detection_final.zip 	" language='matlab, cannot run in win10+matlab2014b'
+ * [R-CNN: Regions with Convolutional Neural Network Features](https://github.com/rbgirshick/rcnn) deep learning
+ * [SPP-Net](https://github.com/ShaoqingRen/SPP_net) deep learning
  * [BING: Objectness Estimation](http://mmcheng.net/bing/comment-page-9/)
- * [Edge Boxes](https://github.com/pdollar/edges)
- * [ReInspect](https://github.com/Russell91/ReInspect)
+ * [Edge Boxes](https://github.com/pdollar/edges) edge detection
+ * [ReInspect](https://github.com/Russell91/ReInspect) deep learning
  
 #### Nearest Neighbor Search
 
@@ -468,8 +468,8 @@ Non-uniform Deblurring
 * [Visual Tracking Challenge](http://www.votchallenge.net/)
 * [Kanade-Lucas-Tomasi Feature Tracker](http://www.ces.clemson.edu/~stb/klt/)
 * [Extended Lucas-Kanade Tracking](http://www.eng.tau.ac.il/~oron/ELK/ELK.html)
-* [Online-boosting Tracking](http://www.vision.ee.ethz.ch/boostingTrackers/)
-* [Spatio-Temporal Context Learning](http://www4.comp.polyu.edu.hk/~cslzhang/STC/STC.htm)
+* [Online-boosting Tracking](http://www.vision.ee.ethz.ch/boostingTrackers/) code="BoostingTracker_Source_v03" updated at 2009
+* [Spatio-Temporal Context Learning](http://www4.comp.polyu.edu.hk/~cslzhang/STC/STC.htm) code="Matlab_STCV0.zip"
 * [Locality Sensitive Histograms](http://www.shengfenghe.com/visual-tracking-via-locality-sensitive-histograms.html)
 * [Enhanced adaptive coupled-layer LGTracker++](http://www.cv-foundation.org/openaccess/content_iccv_workshops_2013/W03/papers/Xiao_An_Enhanced_Adaptive_2013_ICCV_paper.pdf)
 * [TLD: Tracking - Learning - Detection](http://personal.ee.surrey.ac.uk/Personal/Z.Kalal/tld.html)
