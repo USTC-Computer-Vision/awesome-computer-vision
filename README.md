@@ -402,13 +402,13 @@ Non-uniform Deblurring
 
 #### Simultaneous localization and mapping
 
-###### SLAM community:
+###### SLAM community: (input="2D laser scans, not camera or picture")
  * [openSLAM](https://www.openslam.org/)
  * [Kitti Odometry: benchmark for outdoor visual odometry (codes may be available)](http://www.cvlibs.net/datasets/kitti/eval_odometry.php)
 
-###### Tracking/Odometry:
- * [LIBVISO2: C++ Library for Visual Odometry 2](http://www.cvlibs.net/software/libviso/)
- * [PTAM: Parallel tracking and mapping](http://www.robots.ox.ac.uk/~gk/PTAM/)
+###### Tracking/Odometry: (input="2D laser scans, not camera or picture")
+ * [LIBVISO2: C++ Library for Visual Odometry 2](http://www.cvlibs.net/software/libviso/) LIBVISO2 (Library for Visual Odometry 2) is a very fast cross-platfrom (Linux, Windows) C++ library with MATLAB wrappers for computing the 6 DOF motion of a moving mono/stereo camera ,updated in 2016
+ * [PTAM: Parallel tracking and mapping](http://www.robots.ox.ac.uk/~gk/PTAM/) PTAM (Parallel Tracking and Mapping) is a camera tracking system for augmented reality
  * [KFusion: Implementation of KinectFusion](https://github.com/GerhardR/kfusion)
  * [kinfu_remake: Lightweight, reworked and optimized version of Kinfu.](https://github.com/Nerei/kinfu_remake)
  * [LVR-KinFu: kinfu_remake based Large Scale KinectFusion with online reconstruction](http://las-vegas.uni-osnabrueck.de/related-projects/lvr-kinfu/)
@@ -439,8 +439,8 @@ Non-uniform Deblurring
  * [RGBD2Full3D](https://github.com/arron2003/rgbd2full3d) - Ruiqi Guo (UIUC)
 
 #### Object Detection
- * [INRIA Object Detection and Localization Toolkit](http://pascal.inrialpes.fr/soft/olt/)
- * [Discriminatively trained deformable part models](http://www.cs.berkeley.edu/~rbg/latent/)
+ * [INRIA Object Detection and Localization Toolkit](http://pascal.inrialpes.fr/soft/olt/) code="OLT" The research work is described in our CVPR 2005 paper Histograms of Oriented Gradients for Human Detection and my PhD thesis Finding People in Images and Vidoes. Besides person detection we have used the same framework for other object detection tasks. 
+ * [Discriminatively trained deformable part models](http://www.cs.berkeley.edu/~rbg/latent/) 
  * [VOC-DPM](https://github.com/rbgirshick/voc-dpm)
  * [Histograms of Sparse Codes for Object Detection](http://www.ics.uci.edu/~dramanan/software/sparse/)
  * [R-CNN: Regions with Convolutional Neural Network Features](https://github.com/rbgirshick/rcnn)
